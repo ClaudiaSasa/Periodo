@@ -1,0 +1,18 @@
+numeroClientes=0
+numeroClientes=int(input("Ingrese la cantidad de clientes"))
+total=0
+consumo=0
+total_ventas=0
+for consumo in range(1,consumo+1):consumo
+consumo = float(input(f"Ingrese el consumo del cliente: $"))
+if consumo > 50000:
+    descuento = consumo * 0.20
+    pago_final = consumo - descuento
+    print(f"Descuento aplicado: ${descuento:.2f}")
+else:pago_final = consumo
+      
+print(f"Pago final del cliente ${pago_final:.2f}")
+total_ventas += pago_final
+
+print("-" * 30)
+print(f"Total acumulado de todas las ventas: ${total_ventas:.2f}")

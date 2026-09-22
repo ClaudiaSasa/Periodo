@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ejerc10"/>
+        <attribute name="authors" value="Maicol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-05 09:34:30 a.&#8239;m."/>
+        <attribute name="created" value="TWFpY29sO01BSUNPTDsyMDI2LTAzLTA1OzA5OjEyOjMzIGEu4oCvbS47MTA2OTQ="/>
+        <attribute name="edited" value="TWFpY29sO01BSUNPTDsyMDI2LTAzLTA1OzA5OjM0OjMwIGEu4oCvbS47MTsxMDgwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese un numero entre 1 y 10&quot;" newline="True"/>
+            <input variable="Numero"/>
+            <if expression="&quot;Numero &gt;1 y Numero &lt;10&quot;">
+                <then/>
+                <else>
+                    <output expression="&quot;El Numero ingresado no esta entre 1 y 10 por favor, intente de nuevo&quot;" newline="True"/>
+                </else>
+            </if>
+            <for variable="i" start="10" end="-1" direction="inc" step="1">
+                <output expression="&quot;Numero,&quot;*&quot;,i,&quot;=&quot;,Numero*i&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

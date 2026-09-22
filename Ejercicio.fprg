@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ejercicio3"/>
+        <attribute name="authors" value="Maicol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-02 03:34:30 p.&#8239;m."/>
+        <attribute name="created" value="TWFpY29sO01BSUNPTDsyMDI2LTAzLTAyOzAxOjI4OjQ2IHAu4oCvbS47MTA3MDk="/>
+        <attribute name="edited" value="TWFpY29sO01BSUNPTDsyMDI2LTAzLTAyOzAzOjM0OjMwIHAu4oCvbS47MzsxMDgxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="T1, T2, Quiz, Examen, promedio, notafinal" type="Real" array="False" size=""/>
+            <output expression="&quot;Ingrese el promedio&quot;" newline="True"/>
+            <input variable="promedio"/>
+            <output expression="&quot;Ingrese la nota del T1&quot;" newline="True"/>
+            <input variable="T1"/>
+            <output expression="&quot;Ingrese la nota del T2&quot;" newline="True"/>
+            <input variable="T2"/>
+            <output expression="&quot;Ingrese la nota del Quiz&quot;" newline="True"/>
+            <input variable="Quiz"/>
+            <output expression="&quot;Ingrese la nota del Examen&quot;" newline="True"/>
+            <input variable="Examen"/>
+            <assign variable="promedio" expression="((T1+T2+Quiz)/3)*0.3"/>
+            <assign variable="notafinal" expression="(promedio*0.30)+(Examen*0.70)"/>
+            <input variable="notafinal"/>
+            <output expression="&quot;la nota final del primer examen es: &quot;&amp;notafinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Taller  1 Ejercicio"/>
+        <attribute name="authors" value="Maicol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-03 09:46:06 a.&#8239;m."/>
+        <attribute name="created" value="TWFpY29sO01BSUNPTDsyMDI2LTAyLTI3OzExOjU5OjQ0IGEu4oCvbS47MTA3MDM="/>
+        <attribute name="edited" value="TWFpY29sO01BSUNPTDsyMDI2LTAzLTAzOzA5OjQ2OjA2IGEu4oCvbS47MjsxMDgwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Distancia" type="Real" array="False" size=""/>
+            <output expression="&quot;Ingrese la distancia en kilometros&quot;" newline="True"/>
+            <input variable="Distancia"/>
+            <declare name="horas" type="Real" array="False" size=""/>
+            <output expression="&quot;Ingrese el tiempo en horas&quot;" newline="True"/>
+            <input variable="horas"/>
+            <declare name="minutos" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese los minutos&quot;" newline="True"/>
+            <input variable="minutos"/>
+            <assign variable="minutos" expression="horas*60+minutos"/>
+            <assign variable="Distancia" expression="Distancia/minutos"/>
+        </body>
+    </function>
+</flowgorithm>
